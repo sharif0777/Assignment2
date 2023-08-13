@@ -16,7 +16,7 @@ fullnameOverride: ""
 
 pvc:
   enabled: true
-  storageClassName: manual
+  storageClassName: standard
   accessModes:
     - ReadWriteOnce
   resources:

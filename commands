@@ -2,3 +2,6 @@
 docker build -t app1:latest .
 docker tag app1 kindest/app1:latest
 kind load docker-image app1:latest
+
+
+kubectl get storageclasses -o custom-columns=NAME:.metadata.name
